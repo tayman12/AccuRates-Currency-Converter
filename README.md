@@ -1,8 +1,10 @@
-Get ultra-fast, 60-second updated currency conversion for 160+ currencies with bank-grade accuracy, 60ms average response times, and 55 years of historical data, all in one clean, developer-focused currency converter API.
+AccuRates is a currency conversion API for developers building user-facing products that handle multi-currency amounts programmatically.
 
-AccuRates API delivers highly accurate, globally sourced Forex data refreshed every 60 seconds. Backed by bank-level providers and optimized for reliability at scale, it supports live exchange rates, historical datasets, time-series analytics, multi-currency matrices, and bulk conversions, all through simple REST endpoints.
+It’s designed for apps where exchange rates directly affect pricing, balances, or user trust, not for accounting, reporting, or finance-owned rate systems.
 
-Whether you're building fintech apps, e-commerce platforms, accounting tools, dashboards, bots, or global SaaS, AccuRates gives you the speed, accuracy, and uptime your product depends on.
+AccuRates delivers globally sourced Forex data refreshed every 60 seconds, with support for live rates, historical datasets, time-series analytics, bulk conversions, and multi-currency matrices, all through simple REST endpoints optimized for production use.
+
+If your product needs consistent, up-to-date exchange rates inside its core logic, without requiring a dedicated finance team, AccuRates is built for that use case.
 
 ## 🌟 Key Features
 ##### ⚡ 60-Second Live Updates
@@ -17,9 +19,9 @@ Wide coverage across all major, minor, and exotic global currencies.
 
 Aggregated data from 20+ trustworthy central banks and global financial institutions for unmatched accuracy:
 
-##### 🚀 Ultra-Low Latency (Avg. &lt;50ms)
+##### 🚀 Ultra-Low Latency (Avg. ~100ms)
 
-Optimized for speed with globally distributed infrastructure delivering average responses under 50 milliseconds, even during peak load.
+Optimized for speed with globally distributed infrastructure delivering average responses around 100 milliseconds, even during peak load.
 
 ##### 📚 55 Years of Historical Data
 
@@ -27,7 +29,7 @@ Historical rates available for most currency pairs back to the 1960s.
 
 ##### 📅 Time-Series Endpoints
 
-Retrieve continuous datasets for any date range to power analytics, charts, and machine learning.
+Retrieve continuous datasets for building in-app charts, trends, and historical views.
 
 ##### 🔗 Bulk & Matrix Conversion
 
@@ -74,14 +76,15 @@ AccuRates aggregates data from trustworthy global institutions for unmatched acc
 - **[WebserviceX](http://www.webservicex.net/)**
 - **[Currency Converter API](https://www.currencyconverterapi.com/)**
 
-(Data is aggregated, blended, normalized, and validated before serving.)
+(Data is aggregated, blended, normalized, and validated before serving.
+Rates are intended for application use, not official financial reporting or regulatory purposes.)
 
 ## 🌟 Why Developers Choose AccuRates?
 
 ##### Accuracy & Reliability
 - Bank-grade multi-source data (20+ providers)
 - 60-second refresh interval
-- 50 ms average response times (globally optimized)
+- 100 ms average response times (globally optimized)
 - Smart fallback system ensures uptime
 
 ##### Coverage
@@ -93,8 +96,7 @@ AccuRates aggregates data from trustworthy global institutions for unmatched acc
 ##### Developer Experience
 - Simple, powerful REST API
 - Consistent JSON responses
-- Bulk & matrix conversion (rare feature among competitors)
-- Fast integration & predictable pricing
+- Fast integration & predictable pricing for developers
 - Developer-first documentation
 
 ## 📌 Try AccuRates API
@@ -258,17 +260,19 @@ You sent too many requests within your plan’s allowed timeframe.
 - Add a delay / retry logic
 - Upgrade your plan for higher limits
 
-## 💡 Use Cases / Perfect For
-- Fintech & banking apps
-- E-commerce platforms
-- Subscription & SaaS billing
-- Accounting, ERP, and invoicing systems
-- Analytics dashboards
-- BI tools
-- Trading & investment apps
-- Currency conversion widgets
-- AI agents and automation workflows
-- POS systems
+### 💡 Designed For
+
+- User-facing applications that display prices or balances in multiple currencies
+- Products where exchange rate correctness affects user trust or UX
+- SaaS, marketplaces, and consumer apps handling international users
+- Developers who need programmatic FX inside product logic (not reports)
+
+### 🚫 Not Intended For
+
+- Accounting, ERP, or financial reporting systems
+- Official tax, audit, or regulatory calculations
+- Manual rate lookup or spreadsheet-based workflows
+- Finance-department–owned FX pipelines
 
 ### 📘 OpenAPI / Swagger Documentation
 
