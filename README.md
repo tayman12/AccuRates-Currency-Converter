@@ -84,7 +84,7 @@ Rates are intended for application use, not official financial reporting or regu
 ##### Accuracy & Reliability
 - Bank-grade multi-source data (20+ providers)
 - 60-second refresh interval
-- 100 ms average response times (globally optimized)
+- ~100 ms average response times (globally optimized)
 - Smart fallback system ensures uptime
 
 ##### Coverage
